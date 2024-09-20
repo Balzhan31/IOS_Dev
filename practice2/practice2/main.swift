@@ -69,8 +69,8 @@ var students: [String: [Int]] = [
 ]
 let student = "Erkeboolean"
 if let studenttgrade = students[student], studenttgrade.count > 1{
-    let seconfgrade = studenttgrade[1]
-    print(seconfgrade)
+    let secondgrade = studenttgrade[1]
+    print(secondgrade)
 } else {
     print("netu nichago")
 }

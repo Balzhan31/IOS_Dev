@@ -67,7 +67,10 @@ var students: [String: [Int]] = [
     "Jansbob": [92, 87, 89],
     "Kamimimila": [99, 98, 97]
 ]
-let student = "Kamimimila"
-if let secondgrade = students[student]?[1] {
-    print("\(student)'s second grade \(secondgrade)")
+let student = "Erkeboolean"
+if let studenttgrade = students[student], studenttgrade.count > 1{
+    let seconfgrade = studenttgrade[1]
+    print(seconfgrade)
+} else {
+    print("netu nichago")
 }

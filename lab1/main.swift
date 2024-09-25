@@ -17,13 +17,12 @@ var numberofHobbies: Int = hobby.count
 var favoriteNumber: Int = 7
 var ishobbyCreative: Bool = true
 var favoriteFood: String = "Beshbarmak"
-var favoriteSurah: String = "Maryam(Be Heaven)"
 var favoriteseason: String = "Spring"
 
 //Bonus task
-var futureGoals: String = "In the future it doesn't matter what kind of job I do🙂, but I want to be a professional in my field and one of the favorite slaves of Allah🫶🏻"
+var futureGoals: String = "In the future it doesn't matter what kind of job I do🙂, but I want to be a professional in my field🫶🏻"
 
 //Step3
-var lifeStory: String = "My name is \(firstname) \(lastname). I am \(age) years old, born in \(birthYear).I am  \(isStudent ? "a student" : "not a student"). I have the following hobbies: \(hobby).In total, I have \(numberofHobbies) hobbies which \(ishobbyCreative ? "are creative hobbies" : "are not creative hobbies") and my favorite number is \(favoriteNumber).My favorite Surah is \(favoriteSurah), and I love eating \(favoriteFood). My favorite season is \(favoriteseason).\(futureGoals)"
+var lifeStory: String = "My name is \(firstname) \(lastname). I am \(age) years old, born in \(birthYear).I am  \(isStudent ? "a student" : "not a student"). I have the following hobbies: \(hobby).In total, I have \(numberofHobbies) hobbies which \(ishobbyCreative ? "are creative hobbies" : "are not creative hobbies") and my favorite number is \(favoriteNumber), and I love eating \(favoriteFood). My favorite season is \(favoriteseason).\(futureGoals)"
 
 print(lifeStory)

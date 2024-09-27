@@ -5,7 +5,6 @@ func clearWords(from sentence: String) -> [String : Int] {
         !$0.isPunctuation
     }
     
-    
     let words = cleaned.split(separator: " ").map{ String($0)}
     
     var dict: [String : Int] = [:]
@@ -18,7 +17,6 @@ func clearWords(from sentence: String) -> [String : Int] {
 }
 
 func countWords(){
-    print("Enter a sentence")
     
     if let input = readLine() {
         let words = clearWords(from: input)
@@ -30,7 +28,7 @@ func countWords(){
         }
     }
     else {
-        print("Invalid input")
+        print("Invalid")
     }
 }
 

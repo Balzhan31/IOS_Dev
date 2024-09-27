@@ -2,10 +2,8 @@ import Foundation
 
 func gradeCalculator(students: [String:Int]){
     let scores = Array(students.values)
-    
     let total: Double = Double(scores.reduce(0, +))
     let average = total / Double(scores.count)
-    
     let highScore = scores.max()
     let lowScore = scores.min()
     

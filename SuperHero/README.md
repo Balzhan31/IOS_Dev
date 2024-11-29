@@ -1,5 +1,5 @@
-## SuperHeros a hero randomizaer app
-The Hero Randomizer App is an iOS application that all data sourced from the Superhero API and allows users to discover random superheroes, showcasing their images, power stats, biographies, and appearances. 
+## SuperHero 
+The SuperHero App is an iOS application that all data sourced from the Superhero API and allows users to discover random superheroes, showcasing their images, power stats, biographies, and appearances. 
 
 ## Demo
 
